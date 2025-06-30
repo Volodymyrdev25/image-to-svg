@@ -1,0 +1,10 @@
+services:
+  ocr:
+    build: .
+    volumes:
+      - .:/data
+      - easyocr_models:/home/app_user/.EasyOCR
+    working_dir: /data
+
+volumes:
+  easyocr_models:

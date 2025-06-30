@@ -1,0 +1,14 @@
+.venv
+venv
+.DS_Store
+.env
+__pycache__/
+
+media/inputs/**
+!media/inputs/.gitkeep
+
+media/outputs/**
+!media/outputs/.gitkeep
+
+media/openai_outputs/**
+!media/openai_outputs/.gitkeep
